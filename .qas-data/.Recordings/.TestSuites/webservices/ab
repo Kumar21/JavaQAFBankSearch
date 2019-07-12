@@ -1,0 +1,227 @@
+{
+    "steps": [
+        {
+            "command": "Request",
+            "element": "",
+            "eArray": [],
+            "input": "{\"method\":\"GET\",\"baseUrl\":\"https://newuiqa.qmetry.com\",\"endPoint\":\"/rest/admin/logiServerUrl\",\"headers\":{\"content-length\":\"0\",\"Accept\":\"application/json;utf-8\",\"Connection\":\"keep-alive\",\"action\":\"get-logi-url\",\"screenName\":\"LOGIN\",\"Accept-Encoding\":\"gzip, deflate, br\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Content-Type\":\"application/json\"},\"schema\":\"\",\"body\":\"\",\"query-parameters\":{\"has_id\":\"1561377525840\"},\"form-parameters\":{},\"parameters\":{}}",
+            "status": "NotRun",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": "",
+            "tcId": "10",
+            "tsId": 9,
+            "duration": 1600000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Response Should Have Value Contains Ignoring Case",
+            "element": "$.logiServerUrl",
+            "eArray": [
+                [
+                    "$.logiServerUrl",
+                    "jsonpath"
+                ]
+            ],
+            "input": "https://logiqa.qmetry.com/QMetryReport",
+            "status": "NotRun",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": "",
+            "tcId": "10",
+            "tsId": 9,
+            "duration": 612000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Response Should Have Value Ignoring Case",
+            "element": "$.logiServerUrl",
+            "eArray": [
+                [
+                    "$.logiServerUrl",
+                    "jsonpath"
+                ]
+            ],
+            "input": "https://logiqa.qmetry.com/QMetryReport",
+            "status": "NotRun",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": "",
+            "tcId": "10",
+            "tsId": 9,
+            "duration": 518000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Request",
+            "element": "",
+            "input": "{\"method\":\"POST\",\"baseUrl\":\"https://newuiqa.qmetry.com\",\"endPoint\":\"/rest/login\",\"headers\":{\"Accept\":\"application/json;utf-8\",\"Connection\":\"keep-alive\",\"action\":\"login\",\"screenName\":\"LOGIN\",\"Accept-Encoding\":\"gzip, deflate, br\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Content-Length\":\"36\",\"Content-Type\":\"application/x-www-form-urlencoded\"},\"schema\":\"\",\"body\":\"\",\"query-parameters\":{},\"form-parameters\":{\"password\":\"Ispl123#\",\"username\":\"rinkesh\"},\"parameters\":{},\"authentication\":{\"type\":\"noAuth\",\"details\":{}}}",
+            "status": "NotRun",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": ""
+        },
+        {
+            "command": "Response Should Have Header With Value",
+            "element": "content-type",
+            "eArray": [
+                [
+                    "content-type",
+                    "jsonpath"
+                ]
+            ],
+            "input": "application/json;charset=UTF-8",
+            "status": "NotRun",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": ""
+        },
+        {
+            "command": "Request",
+            "element": "",
+            "eArray": [],
+            "input": "{\"method\":\"POST\",\"baseUrl\":\"https://newuiqa.qmetry.com\",\"endPoint\":\"/rest/admin/localesettings/generate\",\"headers\":{\"Accept\":\"application/json, text/plain, */*\",\"orgCode\":\"XMG655\",\"scope\":\"default\",\"Connection\":\"keep-alive\",\"action\":\"get-info-failure\",\"screenName\":\"LOGIN\",\"Accept-Encoding\":\"gzip, deflate, br\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Content-Length\":\"14\",\"usertoken\":\"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyaW5rZXNoLGhxYUhYeEFwengiLCJhdWQiOiJodHRwczovL25ld3VpcWEucW1ldHJ5LmNvbSIsImNsaWVudElkIjo1MDAwNSwiaXNzIjoiUW1ldHJ5IiwiZXhwIjoxNTYxMzc4NDMyLCJ1c2VySWQiOjEzNTksImlhdCI6MTU2MTM3NzUzMiwianRpIjoiLTg2ODE4NDY5OCJ9.CW6c-HXr_BWfHNMsnNBilAiN56vH9hhgVYp73rD933g\",\"Content-Type\":\"application/json\"},\"schema\":\"\",\"body\":\"{\\\"localeID\\\":1}\",\"query-parameters\":{},\"form-parameters\":{},\"parameters\":{}}",
+            "status": "NotRun",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": "",
+            "tcId": "10",
+            "tsId": 9,
+            "duration": 1261000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Request",
+            "element": "",
+            "eArray": [],
+            "input": "{\"method\":\"GET\",\"baseUrl\":\"https://newuiqa.qmetry.com\",\"endPoint\":\"/rest/admin/project/getinfo\",\"headers\":{\"content-length\":\"0\",\"Accept\":\"application/json, text/plain, */*\",\"orgCode\":\"XMG655\",\"scope\":\"default\",\"Connection\":\"keep-alive\",\"action\":\"view\",\"screenName\":\"DASHBOARD\",\"Accept-Encoding\":\"gzip, deflate, br\",\"Accept-Language\":\"en-US,en;q=0.9\",\"usertoken\":\"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyaW5rZXNoLGhxYUhYeEFwengiLCJhdWQiOiJodHRwczovL25ld3VpcWEucW1ldHJ5LmNvbSIsImNsaWVudElkIjo1MDAwNSwiaXNzIjoiUW1ldHJ5IiwiZXhwIjoxNTYxMzc4NDMyLCJ1c2VySWQiOjEzNTksImlhdCI6MTU2MTM3NzUzMiwianRpIjoiLTg2ODE4NDY5OCJ9.CW6c-HXr_BWfHNMsnNBilAiN56vH9hhgVYp73rD933g\",\"Content-Type\":\"application/json\"},\"schema\":\"\",\"body\":\"\",\"query-parameters\":{\"has_id\":\"1561377533149\"},\"form-parameters\":{},\"parameters\":{}}",
+            "status": "NotRun",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": "",
+            "tcId": "10",
+            "tsId": 9,
+            "duration": 1202000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Request",
+            "element": "",
+            "eArray": [],
+            "input": "{\"method\":\"POST\",\"baseUrl\":\"https://newuiqa.qmetry.com\",\"endPoint\":\"/rest/admin/project/default/list\",\"headers\":{\"Accept\":\"application/json, text/plain, */*\",\"orgCode\":\"XMG655\",\"scope\":\"default\",\"Connection\":\"keep-alive\",\"action\":\"get-all-projects-list\",\"screenName\":\"GENERIC\",\"Accept-Encoding\":\"gzip, deflate, br\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Content-Length\":\"146\",\"usertoken\":\"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyaW5rZXNoLGhxYUhYeEFwengiLCJhdWQiOiJodHRwczovL25ld3VpcWEucW1ldHJ5LmNvbSIsImNsaWVudElkIjo1MDAwNSwiaXNzIjoiUW1ldHJ5IiwiZXhwIjoxNTYxMzc4NDMyLCJ1c2VySWQiOjEzNTksImlhdCI6MTU2MTM3NzUzMiwianRpIjoiLTg2ODE4NDY5OCJ9.CW6c-HXr_BWfHNMsnNBilAiN56vH9hhgVYp73rD933g\",\"Content-Type\":\"application/json\"},\"schema\":\"\",\"body\":\"{\\\"userID\\\":1359,\\\"filter\\\":\\\"[{\\\\\\\"value\\\\\\\":[1,0],\\\\\\\"type\\\\\\\":\\\\\\\"list\\\\\\\",\\\\\\\"field\\\\\\\":\\\\\\\"isArchived\\\\\\\"}]\\\",\\\"sort\\\":\\\"[{\\\\\\\"property\\\\\\\":\\\\\\\"name\\\\\\\",\\\\\\\"direction\\\\\\\":\\\\\\\"ASC\\\\\\\"}]\\\"}\",\"query-parameters\":{},\"form-parameters\":{},\"parameters\":{}}",
+            "status": "NotRun",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": "",
+            "tcId": "10",
+            "tsId": 9,
+            "duration": 1246000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Request",
+            "element": "",
+            "eArray": [],
+            "input": "{\"method\":\"POST\",\"baseUrl\":\"https://newuiqa.qmetry.com\",\"endPoint\":\"/rest/admin/localesettings/generate\",\"headers\":{\"Accept\":\"application/json, text/plain, */*\",\"orgCode\":\"XMG655\",\"scope\":\"5788:12343:18885\",\"Connection\":\"keep-alive\",\"action\":\"view\",\"screenName\":\"DASHBOARD\",\"Accept-Encoding\":\"gzip, deflate, br\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Content-Length\":\"14\",\"usertoken\":\"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyaW5rZXNoLGhxYUhYeEFwengiLCJhdWQiOiJodHRwczovL25ld3VpcWEucW1ldHJ5LmNvbSIsImNsaWVudElkIjo1MDAwNSwiaXNzIjoiUW1ldHJ5IiwiZXhwIjoxNTYxMzc4NDMyLCJ1c2VySWQiOjEzNTksImlhdCI6MTU2MTM3NzUzMiwianRpIjoiLTg2ODE4NDY5OCJ9.CW6c-HXr_BWfHNMsnNBilAiN56vH9hhgVYp73rD933g\",\"Content-Type\":\"application/json\"},\"schema\":\"\",\"body\":\"{\\\"localeID\\\":1}\",\"query-parameters\":{},\"form-parameters\":{},\"parameters\":{}}",
+            "status": "NotRun",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": "",
+            "tcId": "10",
+            "tsId": 9,
+            "duration": 1223000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Request",
+            "element": "",
+            "eArray": [],
+            "input": "{\"method\":\"POST\",\"baseUrl\":\"https://newuiqa.qmetry.com\",\"endPoint\":\"/rest/admin/user/getUserImage\",\"headers\":{\"Accept\":\"application/json, text/plain, */*\",\"orgCode\":\"XMG655\",\"scope\":\"5788:12343:18885\",\"Connection\":\"keep-alive\",\"action\":\"view\",\"screenName\":\"GENERIC\",\"Accept-Encoding\":\"gzip, deflate, br\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Content-Length\":\"0\",\"usertoken\":\"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyaW5rZXNoLGhxYUhYeEFwengiLCJhdWQiOiJodHRwczovL25ld3VpcWEucW1ldHJ5LmNvbSIsImNsaWVudElkIjo1MDAwNSwiaXNzIjoiUW1ldHJ5IiwiZXhwIjoxNTYxMzc4NDMyLCJ1c2VySWQiOjEzNTksImlhdCI6MTU2MTM3NzUzMiwianRpIjoiLTg2ODE4NDY5OCJ9.CW6c-HXr_BWfHNMsnNBilAiN56vH9hhgVYp73rD933g\",\"Content-Type\":\"application/json\"},\"schema\":\"\",\"body\":\"\",\"query-parameters\":{},\"form-parameters\":{},\"parameters\":{}}",
+            "status": "NotRun",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": "",
+            "tcId": "10",
+            "tsId": 9,
+            "duration": 1217000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Request",
+            "element": "",
+            "eArray": [],
+            "input": "{\"method\":\"POST\",\"baseUrl\":\"https://newuiqa.qmetry.com\",\"endPoint\":\"/rest/admin/project/default/list\",\"headers\":{\"Accept\":\"application/json, text/plain, */*\",\"orgCode\":\"XMG655\",\"scope\":\"5788:12343:18885\",\"Connection\":\"keep-alive\",\"action\":\"project-list-view\",\"screenName\":\"GENERIC\",\"Accept-Encoding\":\"gzip, deflate, br\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Content-Length\":\"2\",\"usertoken\":\"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyaW5rZXNoLGhxYUhYeEFwengiLCJhdWQiOiJodHRwczovL25ld3VpcWEucW1ldHJ5LmNvbSIsImNsaWVudElkIjo1MDAwNSwiaXNzIjoiUW1ldHJ5IiwiZXhwIjoxNTYxMzc4NDMyLCJ1c2VySWQiOjEzNTksImlhdCI6MTU2MTM3NzUzMiwianRpIjoiLTg2ODE4NDY5OCJ9.CW6c-HXr_BWfHNMsnNBilAiN56vH9hhgVYp73rD933g\",\"Content-Type\":\"application/json\"},\"schema\":\"\",\"body\":\"{}\",\"query-parameters\":{},\"form-parameters\":{},\"parameters\":{}}",
+            "status": "NotRun",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": "",
+            "tcId": "10",
+            "tsId": 9,
+            "duration": 1200000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Request",
+            "element": "",
+            "eArray": [],
+            "input": "{\"method\":\"GET\",\"baseUrl\":\"https://newuiqa.qmetry.com\",\"endPoint\":\"/rest/logi/reports/getSecurekey\",\"headers\":{\"content-length\":\"0\",\"Accept\":\"application/json, text/plain, */*\",\"orgCode\":\"XMG655\",\"scope\":\"5788:12343:18885\",\"Connection\":\"keep-alive\",\"action\":\"user-securekey\",\"screenName\":\"REPORT\",\"Accept-Encoding\":\"gzip, deflate, br\",\"Accept-Language\":\"en-US,en;q=0.9\",\"usertoken\":\"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyaW5rZXNoLGhxYUhYeEFwengiLCJhdWQiOiJodHRwczovL25ld3VpcWEucW1ldHJ5LmNvbSIsImNsaWVudElkIjo1MDAwNSwiaXNzIjoiUW1ldHJ5IiwiZXhwIjoxNTYxMzc4NDMyLCJ1c2VySWQiOjEzNTksImlhdCI6MTU2MTM3NzUzMiwianRpIjoiLTg2ODE4NDY5OCJ9.CW6c-HXr_BWfHNMsnNBilAiN56vH9hhgVYp73rD933g\",\"Content-Type\":\"application/json\"},\"schema\":\"\",\"body\":\"\",\"query-parameters\":{\"has_id\":\"1561377534232\"},\"form-parameters\":{},\"parameters\":{}}",
+            "status": "NotRun",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": "",
+            "tcId": "10",
+            "tsId": 9,
+            "duration": 1217000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Request",
+            "element": "",
+            "eArray": [],
+            "input": "{\"method\":\"GET\",\"baseUrl\":\"https://newuiqa.qmetry.com\",\"endPoint\":\"/rest/logi/reports/getSecurekey\",\"headers\":{\"content-length\":\"0\",\"Accept\":\"application/json, text/plain, */*\",\"orgCode\":\"XMG655\",\"scope\":\"5788:12343:18885\",\"Connection\":\"keep-alive\",\"Accept-Encoding\":\"gzip, deflate, br\",\"Accept-Language\":\"en-US,en;q=0.9\",\"usertoken\":\"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyaW5rZXNoLGhxYUhYeEFwengiLCJhdWQiOiJodHRwczovL25ld3VpcWEucW1ldHJ5LmNvbSIsImNsaWVudElkIjo1MDAwNSwiaXNzIjoiUW1ldHJ5IiwiZXhwIjoxNTYxMzc4NDMyLCJ1c2VySWQiOjEzNTksImlhdCI6MTU2MTM3NzUzMiwianRpIjoiLTg2ODE4NDY5OCJ9.CW6c-HXr_BWfHNMsnNBilAiN56vH9hhgVYp73rD933g\",\"Content-Type\":\"application/json\"},\"schema\":\"\",\"body\":\"\",\"query-parameters\":{\"has_id\":\"1561377534235\"},\"form-parameters\":{},\"parameters\":{}}",
+            "status": "NotRun",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": "",
+            "tcId": "10",
+            "tsId": 9,
+            "duration": 1217000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Request",
+            "element": "",
+            "eArray": [],
+            "input": "{\"method\":\"POST\",\"baseUrl\":\"https://newuiqa.qmetry.com\",\"endPoint\":\"/rest/admin/project/default/list\",\"headers\":{\"Accept\":\"application/json, text/plain, */*\",\"orgCode\":\"XMG655\",\"scope\":\"5788:12343:18885\",\"Connection\":\"keep-alive\",\"action\":\"change-logi-right\",\"screenName\":\"GENERIC\",\"Accept-Encoding\":\"gzip, deflate, br\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Content-Length\":\"2\",\"usertoken\":\"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyaW5rZXNoLGhxYUhYeEFwengiLCJhdWQiOiJodHRwczovL25ld3VpcWEucW1ldHJ5LmNvbSIsImNsaWVudElkIjo1MDAwNSwiaXNzIjoiUW1ldHJ5IiwiZXhwIjoxNTYxMzc4NDMyLCJ1c2VySWQiOjEzNTksImlhdCI6MTU2MTM3NzUzMiwianRpIjoiLTg2ODE4NDY5OCJ9.CW6c-HXr_BWfHNMsnNBilAiN56vH9hhgVYp73rD933g\",\"Content-Type\":\"application/json\"},\"schema\":\"\",\"body\":\"{}\",\"query-parameters\":{},\"form-parameters\":{},\"parameters\":{}}",
+            "status": "NotRun",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": "",
+            "tcId": "10",
+            "tsId": 9,
+            "duration": 1209000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        }
+    ],
+    "type": "webservice",
+    "capabilities": {
+        "type": "webservice",
+        "apiUrl": "https://newuiqa.qmetry.com",
+        "baseUrl": "https://newuiqa.qmetry.com"
+    },
+    "testData": "resources/web/credit.csv",
+    "testDataExample": [],
+    "executionStatus": "NotRun"
+}

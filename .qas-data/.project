@@ -1,0 +1,29 @@
+{
+    "additionalFields": {
+        "android": {
+            "appactivity": "com.qmetry.bank.bankingapplication.HomePageActivity",
+            "apppackage": "com.qmetry.bank.bankingapplication"
+        },
+        "mobileweb": {
+            "baseurl": "https://qas.qmetry.com/bank"
+        },
+        "web": {
+            "baseurl": "https://qas.qmetry.com/bank"
+        },
+        "webservice": {
+            "baseurl": "https://qas.qmetry.com/bank"
+        }
+    },
+    "framework": "qaf",
+    "language": "java",
+    "projectSettings": {
+        "projectName": "AllPlatformJAVAQaf",
+        "projectPath": "d:\\VisualCodeClone\\TestProjects\\blank_project_test"
+    },
+    "projectTypes": [
+        "web",
+        "mobileweb",
+        "android",
+        "webservice"
+    ]
+}

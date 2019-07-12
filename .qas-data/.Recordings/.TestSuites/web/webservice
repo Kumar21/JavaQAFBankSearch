@@ -1,0 +1,399 @@
+{
+    "steps": [
+        {
+            "command": "Request",
+            "element": "",
+            "eArray": [],
+            "input": "GET.struts2-rest-showcase-2.5.18.orders.json",
+            "status": "Passed",
+            "elementKey": "GET.struts2-rest-showcase-2.5.18.orders.json",
+            "elementDesc": "",
+            "indexColumn": "",
+            "duration": 1562000000,
+            "wsc_locator_path": "d:/VisualCodeClone/TestProjects/blank_project_test/AllPlatformJAVAQaf/resources/webservice/qasBank.wsc"
+        },
+        {
+            "command": "Clear",
+            "element": "name=q",
+            "eArray": [
+                [
+                    "name=q",
+                    "name"
+                ],
+                [
+                    "xpath=//form[@id='tsf']/div[2]/div/div/div/div/input",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//div/div/input",
+                    "xpath:position"
+                ],
+                [
+                    "css=input[name=\"q\"]",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/following::input[4]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[1]/following::input[4]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='ry'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "text.search",
+            "elementDesc": "Input for Search",
+            "indexColumn": ""
+        },
+        {
+            "command": "Type",
+            "element": "name=q",
+            "eArray": [
+                [
+                    "name=q",
+                    "name"
+                ],
+                [
+                    "xpath=//form[@id='tsf']/div[2]/div/div/div/div/input",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//div/div/input",
+                    "xpath:position"
+                ],
+                [
+                    "css=input[name=\"q\"]",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/following::input[4]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[1]/following::input[4]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='ry'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ]
+            ],
+            "input": "qmet",
+            "status": "NotRun",
+            "elementKey": "text.search",
+            "elementDesc": "Input for Search",
+            "indexColumn": ""
+        },
+        {
+            "command": "Submit",
+            "element": "id=tsf",
+            "eArray": [
+                [
+                    "id=tsf",
+                    "id"
+                ],
+                [
+                    "name=f",
+                    "name"
+                ],
+                [
+                    "xpath=//div[@id='searchform']/form",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//form",
+                    "xpath:position"
+                ],
+                [
+                    "css=#tsf",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/following::form[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[1]/following::form[1]",
+                    "xpath:neighbor"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "form.tsf",
+            "elementDesc": "FORM tsf",
+            "indexColumn": ""
+        },
+        {
+            "command": "Click",
+            "element": "xpath=//div[@id='rso']/div/div/div/div/div/div/a/h3",
+            "eArray": [
+                [
+                    "xpath=//div[@id='rso']/div/div/div/div/div/div/a/h3",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//h3",
+                    "xpath:position"
+                ],
+                [
+                    "css=h3.LC20lb",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Web results'])[1]/following::h3[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Search Results'])[1]/following::h3[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='https://www.practo.com › Medicine Info'])[1]/preceding::h3[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cached'])[1]/preceding::h3[1]",
+                    "xpath:neighbor"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "h3.h3111936",
+            "elementDesc": "H3 H3111936",
+            "indexColumn": ""
+        },
+        {
+            "command": "Response Should Have Value Contains Ignoring Case",
+            "element": "$[0].id",
+            "eArray": [
+                [
+                    "$[0].id",
+                    "jsonpath"
+                ]
+            ],
+            "input": "3",
+            "status": "NotRun",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": ""
+        },
+        {
+            "command": "Response Should Have Value Contains Ignoring Case",
+            "element": "$[0].id",
+            "eArray": [
+                [
+                    "$[0].id",
+                    "jsonpath"
+                ]
+            ],
+            "input": "3",
+            "status": "NotRun",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": ""
+        },
+        {
+            "command": "Response Should Have Header With Value",
+            "element": "content-length",
+            "eArray": [
+                [
+                    "content-length",
+                    "jsonpath"
+                ]
+            ],
+            "input": "137",
+            "status": "Passed",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": "",
+            "duration": 509000000
+        },
+        {
+            "command": "Store Response Header To",
+            "element": "cache-control",
+            "eArray": [
+                [
+                    "cache-control",
+                    "jsonpath"
+                ]
+            ],
+            "input": "aabd",
+            "status": "Passed",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": "",
+            "duration": 518000000
+        },
+        {
+            "command": "Request",
+            "element": "",
+            "eArray": [],
+            "input": "PUT.struts2-rest-showcase-2.5.18.orders.3.json",
+            "status": "Passed",
+            "elementKey": "PUT.struts2-rest-showcase-2.5.18.orders.3.json",
+            "elementDesc": "",
+            "indexColumn": "",
+            "duration": 1417000000,
+            "wsc_locator_path": "d:/VisualCodeClone/TestProjects/blank_project_test/AllPlatformJAVAQaf/resources/webservice/qasBank.wsc"
+        },
+        {
+            "command": "Request",
+            "element": "",
+            "eArray": [],
+            "input": "PUT.struts2-rest-showcase-2.5.18.orders.3.json_1",
+            "status": "Passed",
+            "elementKey": "PUT.struts2-rest-showcase-2.5.18.orders.3.json_1",
+            "elementDesc": "",
+            "indexColumn": "",
+            "duration": 1356000000,
+            "wsc_locator_path": "d:/VisualCodeClone/TestProjects/blank_project_test/AllPlatformJAVAQaf/resources/webservice/qasBank.wsc"
+        },
+        {
+            "command": "Clear",
+            "element": "id=s",
+            "eArray": [
+                [
+                    "id=s",
+                    "id"
+                ],
+                [
+                    "name=s",
+                    "name"
+                ],
+                [
+                    "xpath=//form[@id='searchform']/div/input",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//input",
+                    "xpath:position"
+                ],
+                [
+                    "css=#s",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Live chat'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Hello! We are here to help. Drop us a line whenever you have questions.'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='# Press enter to search or ESC to close'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Products'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "text.s",
+            "elementDesc": "Input for s",
+            "indexColumn": ""
+        },
+        {
+            "command": "Type",
+            "element": "id=s",
+            "eArray": [
+                [
+                    "id=s",
+                    "id"
+                ],
+                [
+                    "name=s",
+                    "name"
+                ],
+                [
+                    "xpath=//form[@id='searchform']/div/input",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//input",
+                    "xpath:position"
+                ],
+                [
+                    "css=#s",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Live chat'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Hello! We are here to help. Drop us a line whenever you have questions.'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='# Press enter to search or ESC to close'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Products'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ]
+            ],
+            "input": "automation",
+            "status": "NotRun",
+            "elementKey": "text.s",
+            "elementDesc": "Input for s",
+            "indexColumn": ""
+        },
+        {
+            "command": "Submit",
+            "element": "id=searchform",
+            "eArray": [
+                [
+                    "id=searchform",
+                    "id"
+                ],
+                [
+                    "xpath=//header[@id='masthead']/div/div/div[2]/div/div/form",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//form",
+                    "xpath:position"
+                ],
+                [
+                    "css=#searchform",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Live chat'])[1]/following::form[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Hello! We are here to help. Drop us a line whenever you have questions.'])[1]/following::form[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Products'])[1]/preceding::form[1]",
+                    "xpath:neighbor"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "form.searchform",
+            "elementDesc": "FORM searchform",
+            "indexColumn": ""
+        }
+    ],
+    "type": "webservice",
+    "capabilities": {
+        "type": "webservice",
+        "apiUrl": "https://qas.qmetry.com",
+        "baseUrl": "https://qas.qmetry.com/bank"
+    },
+    "testDataExample": [],
+    "executionStatus": "NotRun"
+}

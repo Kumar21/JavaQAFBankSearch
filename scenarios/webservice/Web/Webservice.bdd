@@ -1,0 +1,14 @@
+
+SCENARIO : webservice
+META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"],"author":"kumar.shanu"}
+
+   When user requests "GET.struts2-rest-showcase-2.5.18.orders.json"
+   Then response should have header "content-length" with value "137"
+   And store response header "cache-control" into "aabd"
+   When user requests "PUT.struts2-rest-showcase-2.5.18.orders.3.json"
+   And user requests "PUT.struts2-rest-showcase-2.5.18.orders.3.json_1"
+  
+END
+
+
+

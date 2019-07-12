@@ -1,0 +1,149 @@
+{
+    "steps": [
+        {
+            "command": "Click",
+            "element": "accessibility id=goToLogin",
+            "eArray": [
+                [
+                    "accessibility id=goToLogin",
+                    "accessibility id"
+                ],
+                [
+                    "id=com.qmetry.bank.bankingapplication:id/goToLoginPage",
+                    "id"
+                ],
+                [
+                    "xpath=//android.widget.Button[@content-desc=\"goToLogin\"]",
+                    "xpath"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "go.to.login",
+            "elementDesc": "go.to.login",
+            "indexColumn": ""
+        },
+        {
+            "command": "Click",
+            "element": "accessibility id=goToLogin",
+            "eArray": [
+                [
+                    "accessibility id=goToLogin",
+                    "accessibility id"
+                ],
+                [
+                    "id=com.qmetry.bank.bankingapplication:id/goToLoginPage",
+                    "id"
+                ],
+                [
+                    "xpath=//android.widget.Button[@content-desc=\"goToLogin\"]",
+                    "xpath"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "go.to.login",
+            "elementDesc": "go.to.login",
+            "indexColumn": ""
+        },
+        {
+            "command": "Swipe",
+            "element": "",
+            "eArray": [],
+            "input": "{\"x1\":392,\"y1\":396,\"x2\":388,\"y2\":836}",
+            "status": "NotRun",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": ""
+        },
+        {
+            "command": "Click",
+            "element": "accessibility id=Phone",
+            "eArray": [
+                [
+                    "accessibility id=Phone",
+                    "accessibility id"
+                ],
+                [
+                    "xpath=//android.widget.TextView[@content-desc=\"Phone\"]",
+                    "xpath"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": ".phone",
+            "elementDesc": ".phone",
+            "indexColumn": ""
+        },
+        {
+            "command": "Click",
+            "element": "id=com.google.android.dialer:id/call_log_tab",
+            "eArray": [
+                [
+                    "id=com.google.android.dialer:id/call_log_tab",
+                    "id"
+                ],
+                [
+                    "xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]",
+                    "xpath"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "com.google.android.dialer.id.call.log.tab",
+            "elementDesc": "com.google.android.dialer.id.call.log.tab",
+            "indexColumn": ""
+        },
+        {
+            "command": "Click",
+            "element": "id=com.google.android.dialer:id/bottom_nav_item_image",
+            "eArray": [
+                [
+                    "id=com.google.android.dialer:id/bottom_nav_item_image",
+                    "id"
+                ],
+                [
+                    "xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout/android.widget.ImageView",
+                    "xpath"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "com.google.android.dialer.id.bottom.nav.item.image",
+            "elementDesc": "com.google.android.dialer.id.bottom.nav.item.image",
+            "indexColumn": ""
+        }
+    ],
+    "type": "android",
+    "capabilities": {
+        "capObj": {
+            "perfectoServer": {
+                "host": "",
+                "username": "",
+                "password": "",
+                "https": true
+            },
+            "desiredCapabilities": {
+                "platformName": "Android",
+                "platformVersion": "",
+                "appPackage": "com.qmetry.bank.bankingapplication",
+                "appActivity": "com.qmetry.bank.bankingapplication.HomePageActivity",
+                "deviceName": "emulator-5554",
+                "noReset": true,
+                "automationName": "appium",
+                "browserName": "",
+                "fullReset": false,
+                "autoWebview": false,
+                "newCommandTimeout": "3000",
+                "idleTimeout": "3000"
+            },
+            "type": "automaticServer",
+            "host": "localhost",
+            "port": "4723",
+            "path": "/wd/hub"
+        },
+        "type": "android"
+    },
+    "testDataExample": [],
+    "executionStatus": "NotRun"
+}

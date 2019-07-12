@@ -1,0 +1,36 @@
+
+SCENARIO : Credit
+META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"],"author":"kumar.shanu","dataFile":"resources/web/credit.csv"}
+
+   Given get "https://qas.qmetry.com/bank"
+   When wait until "text.txtusername" to be enable
+   And clear "text.txtusername"
+   And wait until "text.txtusername" to be enable
+   And sendKeys "Bob" into "text.txtusername"
+   And wait until "password.txtpassword" to be enable
+   And clear "password.txtpassword"
+   And wait until "password.txtpassword" to be enable
+   And sendKeys "Bob" into "password.txtpassword"
+   And wait until "button.btnlogin" to be enable
+   And click on "button.btnlogin"
+   And wait until "number.enteramountforcredit" to be enable
+   And clear "number.enteramountforcredit"
+   And wait until "number.enteramountforcredit" to be enable
+   And sendKeys "${value}" into "number.enteramountforcredit"
+   And wait until "button.button11" to be enable
+   And click on "button.button11"
+   And wait until "button.button" to be enable
+   And click on "button.button"
+   And wait until "span.span1" to be enable
+   And click on "span.span1"
+   Then verify "span.span1" is present
+   When wait until "h5.h5" to be enable
+   And click on "h5.h5"
+   Then verify "h5.h5" is present
+   When wait until "button.button_1" to be enable
+   And click on "button.button_1"
+  
+END
+
+
+

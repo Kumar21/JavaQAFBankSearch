@@ -1,0 +1,6 @@
+input.search = {\"locator\":\"name=q\",\"desc\":\"Search Input Box\"}
+button.search = {\"locator\":\"name=btnG\",\"desc\":\"Search Button\"}
+
+text.search={"locator":"name=q","desc":"Input for Search"}
+form.tsf={"locator":"id=tsf","desc":"FORM tsf"}
+h3.h31111926={"locator":"xpath=//div[@id='rso']/div[2]/div/div/div/div/a/h3","desc":"H3 H31111926"}

@@ -1,0 +1,553 @@
+{
+    "steps": [
+        {
+            "command": "Open",
+            "element": "",
+            "eArray": [],
+            "input": "https://qas.qmetry.com/bank",
+            "status": "NotRun",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": "",
+            "duration": 3195000000,
+            "errMessage": {}
+        },
+        {
+            "command": "Clear",
+            "element": "text.txtusername",
+            "eArray": [
+                [
+                    "id=txtUsername",
+                    "id"
+                ],
+                [
+                    "xpath=//input",
+                    "xpath:position"
+                ],
+                [
+                    "css=#txtUsername",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='QMetry Bank Login'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::input[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "text.txtusername",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "text.txtusername",
+            "elementDesc": "Input for txtUsername",
+            "indexColumn": "",
+            "duration": 573000000,
+            "errMessage": {}
+        },
+        {
+            "command": "Type",
+            "element": "text.txtusername",
+            "eArray": [
+                [
+                    "id=txtUsername",
+                    "id"
+                ],
+                [
+                    "xpath=//input",
+                    "xpath:position"
+                ],
+                [
+                    "css=#txtUsername",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='QMetry Bank Login'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::input[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "text.txtusername",
+                    "key"
+                ]
+            ],
+            "input": "Bob",
+            "status": "NotRun",
+            "elementKey": "text.txtusername",
+            "elementDesc": "Input for txtUsername",
+            "indexColumn": "",
+            "duration": 605000000,
+            "errMessage": {}
+        },
+        {
+            "command": "Clear",
+            "element": "password.txtpassword",
+            "eArray": [
+                [
+                    "id=txtPassword",
+                    "id"
+                ],
+                [
+                    "xpath=//div[2]/input",
+                    "xpath:position"
+                ],
+                [
+                    "css=#txtPassword",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::input[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "password.txtpassword",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "password.txtpassword",
+            "elementDesc": "txtPassword password",
+            "indexColumn": "",
+            "duration": 584000000,
+            "errMessage": {}
+        },
+        {
+            "command": "Type",
+            "element": "password.txtpassword",
+            "eArray": [
+                [
+                    "id=txtPassword",
+                    "id"
+                ],
+                [
+                    "xpath=//div[2]/input",
+                    "xpath:position"
+                ],
+                [
+                    "css=#txtPassword",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::input[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "password.txtpassword",
+                    "key"
+                ]
+            ],
+            "input": "Bob",
+            "status": "NotRun",
+            "elementKey": "password.txtpassword",
+            "elementDesc": "txtPassword password",
+            "indexColumn": "",
+            "duration": 569000000,
+            "errMessage": {}
+        },
+        {
+            "command": "Click",
+            "element": "button.btnlogin",
+            "eArray": [
+                [
+                    "id=btnLogin",
+                    "id"
+                ],
+                [
+                    "xpath=//button",
+                    "xpath:position"
+                ],
+                [
+                    "css=#btnLogin",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "button.btnlogin",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "button.btnlogin",
+            "elementDesc": "BUTTON btnLogin",
+            "indexColumn": "",
+            "duration": 645000000,
+            "errMessage": "Name: TypeError\r\nMessage: Cannot read property 'findElement' of undefined\r\nStacktrace: TypeError: Cannot read property 'findElement' of undefined\n\tat d:\\VisualCodeClone\\QasVscode08Mar19\\extensions\\qas-record\\out\\socket\\server.js:1078:49\n\tat Generator.next (<anonymous>)\n\tat fulfilled (d:\\VisualCodeClone\\QasVscode08Mar19\\extensions\\qas-record\\out\\socket\\server.js:4:58)"
+        },
+        {
+            "command": "Clear",
+            "element": "number.enteramountforcredit",
+            "eArray": [
+                [
+                    "xpath=//div[2]/input",
+                    "xpath:position"
+                ],
+                [
+                    "css=input.form-control.ng-untouched.ng-valid.ng-dirty",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Debit'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='$ 62228'])[1]/following::input[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Credit'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "number.enteramountforcredit",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "number.enteramountforcredit",
+            "elementDesc": "Enter amount for credit number",
+            "indexColumn": "",
+            "duration": 613000000
+        },
+        {
+            "command": "Type",
+            "element": "number.enteramountforcredit",
+            "eArray": [
+                [
+                    "xpath=//div[2]/input",
+                    "xpath:position"
+                ],
+                [
+                    "css=input.form-control.ng-untouched.ng-valid.ng-dirty",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Debit'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='$ 62228'])[1]/following::input[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Credit'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "number.enteramountforcredit",
+                    "key"
+                ]
+            ],
+            "input": "${value}",
+            "status": "NotRun",
+            "elementKey": "number.enteramountforcredit",
+            "elementDesc": "Enter amount for credit number",
+            "indexColumn": "",
+            "duration": 679000000
+        },
+        {
+            "command": "Click",
+            "element": "button.button11",
+            "eArray": [
+                [
+                    "xpath=//div[2]/span/button",
+                    "xpath:position"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Debit'])[1]/following::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='$ 62228'])[1]/following::button[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "button.button11",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "button.button11",
+            "elementDesc": "BUTTON BUTTON11",
+            "indexColumn": "",
+            "duration": 594000000
+        },
+        {
+            "command": "Click",
+            "element": "button.button",
+            "eArray": [
+                [
+                    "xpath=//div/div/div/div/button",
+                    "xpath:position"
+                ],
+                [
+                    "css=button.btn.btn-success.btn-block",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Job Role:'])[1]/following::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Current Balance :'])[1]/preceding::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='$ 62238'])[1]/preceding::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "button.button",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "button.button",
+            "elementDesc": "BUTTON BUTTON",
+            "indexColumn": "",
+            "duration": 641000000
+        },
+        {
+            "command": "Click",
+            "element": "span.span1",
+            "eArray": [
+                [
+                    "xpath=//span/span",
+                    "xpath:position"
+                ],
+                [
+                    "css=span.balance-amt > span",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Check My Balance'])[1]/following::span[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Job Role:'])[1]/following::span[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='$ 62238'])[1]/preceding::span[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Debit'])[1]/preceding::span[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "span.span1",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "span.span1",
+            "elementDesc": "Text SPAN1",
+            "indexColumn": "",
+            "duration": 664000000
+        },
+        {
+            "command": "Verify Present",
+            "element": "span.span1",
+            "eArray": [
+                [
+                    "xpath=//span/span",
+                    "xpath:position"
+                ],
+                [
+                    "css=span.balance-amt > span",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Check My Balance'])[1]/following::span[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Job Role:'])[1]/following::span[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='$ 62238'])[1]/preceding::span[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Debit'])[1]/preceding::span[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "span.span1",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "span.span1",
+            "elementDesc": "Text SPAN1",
+            "indexColumn": "",
+            "duration": 546000000
+        },
+        {
+            "command": "Click",
+            "element": "h5.h5",
+            "eArray": [
+                [
+                    "xpath=//h5",
+                    "xpath:position"
+                ],
+                [
+                    "css=h5",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Log Out'])[1]/following::h5[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "h5.h5",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "h5.h5",
+            "elementDesc": "H5 H5",
+            "indexColumn": "",
+            "duration": 598000000
+        },
+        {
+            "command": "Verify Present",
+            "element": "h5.h5",
+            "eArray": [
+                [
+                    "xpath=//h5",
+                    "xpath:position"
+                ],
+                [
+                    "css=h5",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Log Out'])[1]/following::h5[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "h5.h5",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "h5.h5",
+            "elementDesc": "H5 H5",
+            "indexColumn": "",
+            "duration": 532000000
+        },
+        {
+            "command": "Click",
+            "element": "button.button_1",
+            "eArray": [
+                [
+                    "xpath=//button",
+                    "xpath:position"
+                ],
+                [
+                    "css=button.btn.btn-success",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Name:'])[1]/preceding::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "button.button_1",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "button.button",
+            "elementDesc": "BUTTON BUTTON",
+            "indexColumn": "",
+            "duration": 603000000
+        },
+        {
+            "command": "Open",
+            "element": "",
+            "eArray": [],
+            "input": "https://qas.qmetry.com/bank",
+            "status": "NotRun",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": ""
+        }
+    ],
+    "type": "web",
+    "capabilities": {
+        "remoteUrl": "https://qas.qmetry.com/bank",
+        "type": "web",
+        "selectDevice": "",
+        "details": {
+            "deviceMetrics": {
+                "name": "",
+                "width": "",
+                "height": "",
+                "pixelRatio": "",
+                "userAgent": ""
+            }
+        }
+    },
+    "testData": "resources/web/credit.csv",
+    "testDataExample": [],
+    "executionStatus": "NotRun"
+}

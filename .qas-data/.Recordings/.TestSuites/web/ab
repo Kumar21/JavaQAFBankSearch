@@ -1,0 +1,269 @@
+{
+    "steps": [
+        {
+            "command": "Open",
+            "element": "",
+            "eArray": [],
+            "input": "https://qas.qmetry.com/bank",
+            "status": "NotRun",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": ""
+        },
+        {
+            "command": "Open",
+            "element": "",
+            "eArray": [],
+            "input": "https://qas.qmetry.com/bank",
+            "status": "NotRun",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": ""
+        },
+        {
+            "command": "Clear",
+            "element": "text.search",
+            "eArray": [
+                [
+                    "name=q",
+                    "name"
+                ],
+                [
+                    "xpath=//form[@id='tsf']/div[2]/div/div/div/div/input",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//div/div/input",
+                    "xpath:position"
+                ],
+                [
+                    "css=input[name=\"q\"]",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/following::input[4]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[1]/following::input[4]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='qmetry'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remove'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "text.search",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "text.search",
+            "elementDesc": "Input for Search",
+            "indexColumn": "",
+            "tcId": "35"
+        },
+        {
+            "command": "Type",
+            "element": "text.search",
+            "eArray": [
+                [
+                    "name=q",
+                    "name"
+                ],
+                [
+                    "xpath=//form[@id='tsf']/div[2]/div/div/div/div/input",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//div/div/input",
+                    "xpath:position"
+                ],
+                [
+                    "css=input[name=\"q\"]",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/following::input[4]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[1]/following::input[4]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='qmetry'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remove'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "text.search",
+                    "key"
+                ]
+            ],
+            "input": "qmetry",
+            "status": "NotRun",
+            "elementKey": "text.search",
+            "elementDesc": "Input for Search",
+            "indexColumn": ""
+        },
+        {
+            "command": "Submit",
+            "element": "form.tsf",
+            "eArray": [
+                [
+                    "id=tsf",
+                    "id"
+                ],
+                [
+                    "name=f",
+                    "name"
+                ],
+                [
+                    "xpath=//div[@id='searchform']/form",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//form",
+                    "xpath:position"
+                ],
+                [
+                    "css=#tsf",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/following::form[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[1]/following::form[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "form.tsf",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "form.tsf",
+            "elementDesc": "FORM tsf",
+            "indexColumn": "",
+            "tcId": "35"
+        },
+        {
+            "command": "Click",
+            "element": "h3.h31111926",
+            "eArray": [
+                [
+                    "xpath=//div[@id='rso']/div[2]/div/div/div/div/a/h3",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//div[2]/div/div/div/div/a/h3",
+                    "xpath:position"
+                ],
+                [
+                    "css=div.g > div > div.rc > div.r > a > h3.LC20lb",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Web results'])[1]/following::h3[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='More results from qmetry.com »'])[1]/following::h3[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='https://marketplace.atlassian.com/apps/1215144/qmetry-for-jira-test-management'])[1]/preceding::h3[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cached'])[2]/preceding::h3[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "h3.h31111926",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "h3.h31111926",
+            "elementDesc": "H3 H31111926",
+            "indexColumn": "",
+            "tcId": "35"
+        },
+        {
+            "command": "Request",
+            "eArray": [],
+            "input": "GET.struts2.rest.showcase.2.5.18.orders.json",
+            "status": "NotRun",
+            "elementKey": "GET.struts2.rest.showcase.2.5.18.orders.json",
+            "elementDesc": "",
+            "indexColumn": "",
+            "tcId": "35"
+        },
+        {
+            "command": "Request",
+            "element": "",
+            "eArray": [],
+            "input": "PUT.struts2.rest.showcase.2.5.18.orders.3.json",
+            "status": "NotRun",
+            "elementKey": "PUT.struts2.rest.showcase.2.5.18.orders.3.json",
+            "elementDesc": "",
+            "indexColumn": "",
+            "tcId": "35"
+        },
+        {
+            "command": "Request",
+            "element": "",
+            "eArray": [],
+            "input": "PUT.struts2.rest.showcase.2.5.18.orders.3.json_1",
+            "status": "NotRun",
+            "elementKey": "PUT.struts2.rest.showcase.2.5.18.orders.3.json_1",
+            "elementDesc": "",
+            "indexColumn": "",
+            "tcId": "35"
+        },
+        {
+            "command": "Request",
+            "element": "",
+            "eArray": [],
+            "input": "GET.struts2.rest.showcase.2.5.18.orders.13.json",
+            "status": "NotRun",
+            "elementKey": "GET.struts2.rest.showcase.2.5.18.orders.13.json",
+            "elementDesc": "",
+            "indexColumn": "",
+            "tcId": "35"
+        }
+    ],
+    "type": "web",
+    "capabilities": {
+        "remoteUrl": "https://qas.qmetry.com/bank",
+        "type": "web",
+        "selectDevice": "",
+        "isRemote": false,
+        "remoteHubUrl": "",
+        "details": {
+            "deviceMetrics": {
+                "name": "",
+                "width": "",
+                "height": "",
+                "pixelRatio": "",
+                "userAgent": ""
+            }
+        }
+    },
+    "testDataExample": [],
+    "executionStatus": "NotRun"
+}

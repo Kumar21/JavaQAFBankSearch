@@ -1,0 +1,59 @@
+{
+    "details": [
+        {
+            "name": "Alias Name",
+            "type": "text",
+            "value": "qtm2"
+        },
+        {
+            "name": "URL",
+            "type": "text",
+            "value": "https://testmanagement.qmetry.com/rest/import/createandscheduletestresults/1"
+        },
+        {
+            "name": "ApiKey",
+            "type": "text",
+            "value": "asdasd"
+        },
+        {
+            "name": "projectID",
+            "type": "select",
+            "value": "asdsa"
+        },
+        {
+            "name": "testsuiteName",
+            "type": "text",
+            "value": "asdasd"
+        },
+        {
+            "name": "testsuiteId",
+            "type": "text",
+            "value": ""
+        },
+        {
+            "name": "releaseID",
+            "type": "select",
+            "value": ""
+        },
+        {
+            "name": "cycleID",
+            "type": "select",
+            "value": ""
+        },
+        {
+            "name": "buildID",
+            "type": "select",
+            "value": ""
+        },
+        {
+            "name": "platformID",
+            "type": "select",
+            "value": ""
+        }
+    ],
+    "name": "qtm2",
+    "type": "qtm",
+    "serverType": "cloud",
+    "setDefault": false,
+    "setDefect": true
+}
