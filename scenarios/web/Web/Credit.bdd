@@ -29,6 +29,9 @@ META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"],"author":"ku
    Then verify "h5.h5" is present
    When wait until "button.button_1" to be enable
    And click on "button.button_1"
+   # Then verify "h5.h5" is present
+   # When wait until "button.button_1" to be enable
+   # And click on "button.button_1"
   
 END
 
